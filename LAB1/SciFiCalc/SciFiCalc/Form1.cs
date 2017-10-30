@@ -21,12 +21,12 @@ namespace SciFiCalc
 
         private void b9_Click(object sender, EventArgs e)
         {
-            TB.AppendText("8");
+            TB.AppendText("9");
         }
 
         private void b8_Click(object sender, EventArgs e)
         {
-            TB.AppendText("9");
+            TB.AppendText("8");
         }
 
         private void b7_Click(object sender, EventArgs e)
