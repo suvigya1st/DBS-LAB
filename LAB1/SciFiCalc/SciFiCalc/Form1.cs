@@ -137,7 +137,7 @@ namespace SciFiCalc
 
         private void b_eq_Click(object sender, EventArgs e)
         {
-            TB.Text = num2 + "";
+            TB.Text = num2 + " ";
         }
     }
 }
