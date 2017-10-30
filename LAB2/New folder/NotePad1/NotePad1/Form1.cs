@@ -21,7 +21,7 @@ namespace NotePad1
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Title = "Open";
+            ofd.Title = "Open strip menu";
             ofd.ShowDialog();
             StreamReader sr = new StreamReader(ofd.FileName);
             richTextBox1.Text = sr.ReadToEnd();
